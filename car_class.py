@@ -20,3 +20,9 @@ class Car:
 
 # Create the Car object
 my_car = Car(2020, "Toyota")
+
+# Accelerate 5 times
+print("Accelerating:")
+for i in range(5):
+    my_car.accelerate()
+    print(f"Speed after accelerate {i+1}: {my_car.get_speed()}")
