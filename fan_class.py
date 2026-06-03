@@ -37,3 +37,9 @@ class Fan:
             return f"Fan is ON | Speed: {self.__speed}, Color: {self.__color}, Radius: {self.__radius}"
         else:
             return f"Fan is OFF | Color: {self.__color}, Radius: {self.__radius}"
+# Create first fan
+fan1 = Fan()
+fan1.set_speed(Fan.FAST)
+fan1.set_radius(10)
+fan1.set_color("yellow")
+fan1.set_on(True)
