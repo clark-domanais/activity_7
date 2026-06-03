@@ -26,3 +26,9 @@ print("Accelerating:")
 for i in range(5):
     my_car.accelerate()
     print(f"Speed after accelerate {i+1}: {my_car.get_speed()}")
+
+# Brake 5 times
+print("\nBraking:")
+for i in range(5):
+    my_car.brake()
+    print(f"Speed after brake {i+1}: {my_car.get_speed()}")
