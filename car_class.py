@@ -17,3 +17,6 @@ class Car:
     # Getter for speed
     def get_speed(self):
         return self.__speed
+
+# Create the Car object
+my_car = Car(2020, "Toyota")
