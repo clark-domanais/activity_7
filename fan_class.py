@@ -10,3 +10,13 @@ class Fan:
         self.__radius = radius
         self.__color = color
         self.__on = on
+
+    # Getters
+    def get_speed(self):
+        return self.__speed
+    def is_on(self):
+        return self.__on
+    def get_radius(self):
+        return self.__radius
+    def get_color(self):
+        return self.__color
