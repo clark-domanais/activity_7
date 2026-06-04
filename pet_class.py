@@ -23,3 +23,6 @@ class Pet:
 
     def get_age(self):
         return self.__age
+
+# Create a Pet object
+my_pet = Pet()
