@@ -26,3 +26,8 @@ class Pet:
 
 # Create a Pet object
 my_pet = Pet()
+
+# Get user input
+name = input("Enter your pet's name: ")
+animal_type = input("Enter the type of animal (Dog, Cat, Bird, etc.): ")
+age = int(input("Enter your pet's age: "))
